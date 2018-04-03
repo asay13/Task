@@ -6,6 +6,10 @@ body {
 	  padding: 10px;
 	  color: #8B4513;
 	}
+	h2 {
+		margin: 30px;
+		color: #8B4513;
+	}
 	.col {
 		float: left;
 		width: 16.5%;
@@ -76,4 +80,22 @@ body {
 	  color: #8B4513;
 	  display: inline-block;
 	}
-	
+	.book-detail{
+		float: left;
+		
+	}
+	.book-detail img {
+		margin-right: 30px;
+		float: left;
+		height: 400px;
+		
+	}
+	.book-text {
+	    padding: 3px;
+	    color: #4d2306;
+	    display: block;
+	}
+	.book-text-bold{
+	    color: #4d2306;
+	    font-weight: bold;
+	}

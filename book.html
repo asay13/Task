@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <title>Сайт Анастасии</title>
-<link rel="stylesheet" href="/Task/stile.css">
+<link rel="stylesheet" href="stile.css">
 </head>
 
 <body>
@@ -12,7 +12,7 @@
 		<li>
 			<a href="/Task/">Главная</a>
 		</li><li>
-			<a href="#">Галерея</a>
+			<a href="gallery.html">Галерея</a>
 		</li>
 	</ul>
 	
@@ -20,7 +20,9 @@
 		<h1>Название книиги</h1>
 	</div>
 	<div class = "book-detail">
-	    <img src="https://www.litmir.me/data/Book/0/221000/221850/BC3_1490697629.jpg"></img>
+	    <div class = "book-detail-img">
+	    	<img src="https://www.litmir.me/data/Book/0/221000/221850/BC3_1490697629.jpg"></img>
+	    </div>
 	    <div class = "book-text">
 	        <span class = "book-text-bold">Автор:</span> Елена Звездная
 	    </div>
@@ -42,13 +44,21 @@
 						А если что-то спутаем — друзья помогут. Или любимый человек. Ах, он не человек вовсе? Неважно. 
 						Еще раз повторим — студенты факультета боевой магии трудностей не боятся. А значит — вперед!
 	    </div>
+	    <div class = "book-text">
+	    	
+		</div>
 	</div>
 	<h2>Ваш отзыв о книге</h2>
-	<div></div>
-	<form>
-		<input type="text" name=""/>
-		<input type="submit" value="Submit"/>
-	</form>
+			<form class="transparent">
+			   <div class="form-inner">
+			     <label for="username">Имя пользователя</label>
+			     <input type="text" id="username">
+			     <label for="password">Отзыв</label>
+			     <input id="text" type="text">
+			     <input type="submit" value="Отправить">
+			  </div>
+			</form>
+	
 </body>
 	    
 </html>

@@ -122,9 +122,12 @@ ul.menu > li > a {
 .book-detail-img img {
 	margin-right: 30px;
 	float: left;
+	width: 100%;
+	max-width: 250px;
 	height: 400px;
 }
 .book-text {
+		max-width: 90%;
     padding: 3px;
     color: #4d2306;
     display: block;

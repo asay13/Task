@@ -1,0 +1,235 @@
+body {
+	margin: 10px;
+	background-color: #EEE8AA;
+}
+h1 {
+	padding: 10px;
+	color: #8B4513;
+}
+h2 {
+	margin: 20px;
+	text-align: center;
+	color: #8B4513;
+}
+.col {
+	float: left;
+	width: 20%;
+}
+.col > div:hover {
+	box-shadow: 0 0 5px #B0E0E6, 0 0 5px #B0C4DE;
+	cursor: pointer;
+}
+.col > div {
+	margin: 10px;
+}
+.col img {
+	width: 100%;
+	height: 400px;
+	object-fit: cover; /* contain мб*/
+	object-position: 50% 50%;
+	display: block;
+}
+.col-text > div {
+	height: 200px;
+	overflow: hidden;
+}
+.col-text {
+	border: 1px solid #B0C4DE;
+	background: #FAFAD2;
+	color: #4d2306;
+	border-top: 0;
+	padding: 10px;
+	text-align: justify;
+}
+a,
+a:visited,
+a:focus,
+a:active,
+a:hover {
+	text-decoration: none;
+	color: #4d2306;
+}
+a:hover {
+	color: #6a95b7;
+}
+@media  (min-width: 2001px) {
+	.col img {
+		height: 600px;
+	}
+	.col {
+		width: 16.5%;
+	}
+}
+@media (max-width: 2000px) and (min-width: 1501px) {
+	
+	.col {
+		width: 16.5%;
+	}
+}
+@media (max-width: 1200px) and (min-width: 950px) {
+  .gallery {
+    width: 25%;
+  }
+	.col {
+		width: 25%;
+	}
+}
+@media (max-width: 949px) {
+  .gallery {
+    width: 33%;
+  }
+	.col {
+		width: 33%;
+	}
+}
+@media (max-width: 600px) {
+  .gallery {
+    width: 50%;
+  }
+	.col {
+		width: 50%;
+	}
+}
+@media (max-width: 320px) {
+  .gallery {
+    width: 50%;
+  }
+	.col {
+		width: 100%;
+	}
+}
+ul.menu {
+	padding-left: 10px;
+}
+ul.menu > li {
+	display: inline-block;
+	background: #D2B48C;
+	border-right: 0px solid #EEE8AA;
+	padding: 0;
+}
+ul.menu > li:hover{
+  box-shadow: 0 0 5px #B0E0E6, 0 0 5px #B0C4DE;
+}
+ul.menu > li > a {
+	padding: 10px;
+	color: #8B4513;
+	display: inline-block;
+}
+.book-detail{
+	margin: 20px;
+	float: left;
+}
+.book-detail-img img {
+	margin-right: 30px;
+	float: left;
+	width: 100%;
+	max-width: 250px;
+	height: 400px;
+}
+.book-text {
+		max-width: 90%;
+    padding: 3px;
+    color: #4d2306;
+    display: block;
+}
+.book-text-bold{
+    color: #4d2306;
+    font-weight: bold;
+}
+.reviewAbuotBook > input {
+	color: #8B4513;
+	background: #EEE8AA;
+	font-family: 'Oswald', sans-serif;
+}
+
+* {box-sizing: border-box;}
+.transparent {
+  position: relative;
+  max-width: 90%;
+  max-height: 280px;
+  padding: 30px 30px;
+  margin: 30px auto 0;
+  background-image: url(https://html5book.ru/wp-content/uploads/2017/01/photo-roses.jpg);
+  background-size: cover;
+}
+.transparent:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to right bottom,rgba(43, 44, 78, .5),rgba(104, 22, 96, .5));
+}
+.form-inner {position: relative;}
+.form-inner label {
+  display: block;
+  padding-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(255,255,255,.6);
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.form-inner input {
+  display: block;
+  width: 100%;
+  padding: 0 15px;
+  margin: 10px 0 15px;
+  border-width: 0;
+  line-height: 40px;
+  border-radius: 20px;
+  color: white;
+  background: rgba(255,255,255,.2);
+  font-family: 'Roboto', sans-serif;
+}
+.form-inner input[type="text"] {
+  height: auto;
+  word-wrap: break-word;
+}
+.form-inner input[type="submit"] {background: #1762EE;}
+.gallery {
+  float: left;
+	width: 16.5%;
+}
+.gallery > img {
+  border: 2px solid #B0C4DE;
+  width: 100%;
+	height: 200px;
+	object-fit: cover; /* contain мб*/
+	display: block;
+}
+@media (min-width: 2300px) {
+	.gallery {
+		width: 8.3%;
+	}
+}
+@media (max-width: 2299px) and (min-width: 2000px) {
+	.gallery {
+		width: 10%;
+	}
+}
+@media (max-width: 1999px) and (min-width: 1600px) {
+	.gallery {
+		width: 12.5%;
+	}
+}
+@media (max-width: 1200px) and (min-width: 900px) {
+	.gallery {
+		width: 25%;
+	}
+}
+@media (max-width: 899px) and (min-width: 600px) {
+	.gallery {
+		width: 33%;
+	}
+}
+@media (max-width: 599px) and (min-width: 320px) {
+	.gallery {
+		width: 50%;
+	}
+}
+@media  (max-width: 320px) {
+	.gallery {
+		width: 100%;
+	}
+}
